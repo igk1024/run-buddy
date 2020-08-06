@@ -31,12 +31,6 @@ body {
 }
 /* Hero Style End */
 
-/* apply styles to <header> */
-header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-  }
-
 
   .hero-form {
     border: 3px solid #024e76;
@@ -69,21 +63,30 @@ header {
     width: 100%;
     margin-bottom: 15px;
   }
+/* ----~ HEADER ----~ */
+
+header {
+  padding: 20px 35px;
+  background-color: #39a6b2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
 
   header h1 {
     font-weight: bold;
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
   }
+
   header a {
     text-decoration: none;
     color: #fce138;
   }
 
   header nav {
-    float: right;
     margin: 7px 0;
   }
 
@@ -96,6 +99,9 @@ header {
     font-weight: lighter;
     font-size: 22px;
   }
+
+  /* ----~ HEADER ----~ */
+
 
   .intro {
     text-align: center;
